@@ -1,0 +1,144 @@
+body {
+    background: #272743;
+
+}
+
+body {
+    color: white;
+	font-family: 'PT Serif', serif;
+    text-align: center;
+}
+ 
+.navbar {
+    position: static;
+    padding: 0.5rem;
+    background-color: #272743;
+    height: 40px;
+}
+ 
+.navbar .logo {
+    position: relative; 
+    left: 2rem;
+    cursor: pointer;  
+}
+.navbar .logo {
+    position: relative; 
+    left: 2rem;
+}
+
+.navbar .links-container {
+    display: table;
+    position: absolute;
+    top: 0;
+    right: 200;
+    height: 55px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    opacity: .5;
+    font-size: .75em;
+    font-weight: 700;
+    font-family: Lato,Helvetica Neue,sans-serif;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ 
+.links-container .navbar-link {
+     display: table-cell;
+     position: relative;
+     height: 10%;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     vertical-align: middle;
+     color: white;
+     font-size: 20px;
+     letter-spacing: 0.05rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ 
+
+ .links-container a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+ .link-container .icon {
+    display: none;
+}
+
+.hero-content {
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#video-background  {
+
+    position: static; 
+    top: 0px; 
+    left: 0px; 
+    min-width: 1%; 
+    min-height: 1%;
+    z-index: -1; 
+}
+
+
+
+.ion-chevron-down {
+
+    color: white;
+    font-size: 5rem;
+} 
+
+.hero-content .hero-title {
+    position: absolute;            
+    top: 40%;    
+    left:1px;            
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;                    
+    text-align: center;             
+    font-size: 4rem;                
+    font-weight: 300;
+    font-family: "Futura PT W02 Heavy", Futura, "Trebuchet MS", Arial, sans-serif;
+    text-transform: uppercase;      
+    letter-spacing: 0.2rem;         
+    text-shadow: 1px 1px 0px rgb(58,23,63);
+    z-index: 2; 
+}
+
+p {
+    position: absolute;   
+    display:block;          
+    top: 58%;    
+    right: 950px;                   
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    font-size: 1.6rem; 
+    font-family: ;             
+    font-weight: 300;               
+    text-shadow: 1px 1px 0px rgb(58,23,63);
+    z-index: 2; 
+    text-align: left
+}
+
+.section5{
+   
+font-size: 20px;
+font-family: Judson, Georgia, serif
+color:rgba(253, 253, 253, 0.7);
+box-sizing: border-box
+height: 100px;
+font-style:italic;
+text-align: center;
+opacity: .5;
+}
+
+
+

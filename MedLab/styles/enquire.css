@@ -1,0 +1,184 @@
+.navbar {
+    position: relative;
+    padding: 0.5rem;
+    background-color: #272743;
+    height: 70px;
+}
+ 
+ .navbar .logo {
+    position: relative; 
+    left: 2rem;
+    cursor: pointer; 
+ }
+
+.navbar .logo {
+    position: relative;
+    left: 2rem;
+ }
+
+ .navbar .links-container {
+    display: table;
+    position: absolute;
+    top: 0;
+    right: 200;
+    height: 100px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    opacity: .5;
+    font-size: .75em;
+    font-weight: 700;
+    font-family: Lato,Helvetica Neue,sans-serif;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ 
+ .links-container .navbar-link {
+     display: table-cell;
+     position: relative;
+     height: 100%;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     vertical-align: middle;
+     color: white;
+     font-size: 20px;
+     letter-spacing: 0.05rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ 
+
+ .links-container .navbar-link:hover {
+    color: grey
+  
+ }
+
+
+
+.section1 {
+    position: static;
+    background: #272842;
+    padding-top: 5.0625rem;
+    padding-bottom: 4.9375rem;
+    color: #fff;
+
+}
+
+h1 {
+    text-align: : center
+    font-size: 2.625rem;
+    font-style: italic;
+    font-weight: 100;
+    display: block;
+    font-family: Judson,Georgia,serif;
+    line-height: 1.2;
+
+} 
+
+h1 {  
+    position: relative;
+    margin: 0 0 .75em;
+    left: 450px;
+
+
+display: block;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+}
+
+
+h3 {
+
+    position: relative;
+    margin: 0 0 .75em;
+    left: 400px;
+}
+
+
+.section2 {
+    background: white
+}
+
+
+
+#message {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 3.8125rem;
+    font-size: 1.125rem;
+}
+
+#fname {
+    width: 30%;
+    font-size: 1.125rem;
+    display:block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 2.8125rem;
+}
+
+
+
+#pnumber {
+background-image: url("phone-ico.png");
+
+    width: 30%;
+    font-size: 1.125rem;
+    display:block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 2.8125rem;
+}
+
+#email {
+
+    width: 30%;
+    font-size: 1.125rem;
+    display:block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    height: 2.8125rem;
+}
+
+
+
+
+button {
+    color: #FFF;
+    background-color: #272842;;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Judson,Georgia,serif;
+    font-size: 1.3125rem;
+    font-style: italic;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    padding: 1.5rem 4rem 1.4375rem 2.125rem;
+    line-height: .7;
+    text-align: center;
+    text-decoration: none;
+}
+
+button {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%
+}
